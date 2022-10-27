@@ -69,7 +69,8 @@ input{
     border: 1px solid whitesmoke;
     border-radius: 20px;
     max-width: 500px;
-    width: 60%
+    width: 60%;
+    color: whitesmoke
 }
 
 .buttons{
@@ -122,9 +123,10 @@ button:hover{
     border: 1px solid whitesmoke;
 }
 
-input:hover{
+input:hover, input:focus{
     background-color: rgb(104, 93, 93);
     border: 1px solid black;
+    color: whitesmoke;
 }
 
 .profile:hover{

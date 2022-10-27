@@ -16,6 +16,8 @@ nav{
     justify-content: space-between;
     padding: 10px;
     position: fixed;
+    align-items: center;
+    height: 50px;
 }
 
 .nav-element{
@@ -24,10 +26,21 @@ nav{
 }
 
 svg{
+    fill: whitesmoke;
     height: 30px;
     width: 30px;
-    fill: whitesmoke;
-    margin-top: 10px 20px;
+    padding: 2px;
+    margin-top: 3px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+svg:hover{
+    background-color: rgb(99, 96, 96);
+    cursor: pointer;
 }
 
 .profile{
